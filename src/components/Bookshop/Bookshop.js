@@ -23,7 +23,22 @@ const Bookshop = () => {
         } else if (!cart.find(book => book.id === id) && cart.length < 4) {
             newCart.push(books.find(book => book.id === id));
         }
+        else if (cart.length > 3) {
+            window.alert("You've already chosen 4 items!")
+        }
         setCart(newCart);
+    }
+
+    const randomItemSelector = (maxVal) => {
+        const randomIndex = Math.floor(Math.random() * maxVal);
+        window.confirm("Your Lucky Book is: \n" + + "\n" + cart[randomIndex].name);
+        // return Math.floor(Math.random() * maxVal);
+        // console.log(Math.floor(Math.random() * maxVal));
+    }
+
+    //celar selected items function
+    const clearItems = () => {
+        setCart([]);
     }
 
 
@@ -48,8 +63,8 @@ const Bookshop = () => {
                             key={item.id}
                         ></SelectedItem>)
                     }
-                    <button className='random-btn'>Chose a Random Book</button>
-                    <button className='clear-btn'>Clear All</button>
+                    <button onClick={() => { randomItemSelector(cart.length) }} className='random-btn'>Chose a Random Book</button>
+                    <button onClick={clearItems} className='clear-btn'>Clear All</button>
 
                 </div>
             </div>
