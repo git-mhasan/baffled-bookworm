@@ -32,8 +32,7 @@ const Bookshop = () => {
     const randomItemSelector = (maxVal) => {
         const randomIndex = Math.floor(Math.random() * maxVal);
         window.confirm("Your Lucky Book is: \n" + + "\n" + cart[randomIndex].name);
-        // return Math.floor(Math.random() * maxVal);
-        // console.log(Math.floor(Math.random() * maxVal));
+
     }
 
     //celar selected items function
@@ -53,6 +52,7 @@ const Bookshop = () => {
                     <Books books={books}
                         handleAddToCart={handleAddToCart}
                     ></Books>
+
                 </div>
                 <div className='book-cart'>
                     <h4>You Choose:</h4>

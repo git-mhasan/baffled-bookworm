@@ -11,7 +11,7 @@ const Card = ({ id, name, price, image, handleAddToCart }) => {
             <h4><b>{name}</b></h4>
             <p>Price: ${price}</p>
             <button className='cart-btn' onClick={() => { handleAddToCart(id) }}><p>Add to Cart</p>
-                <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon></button>
+                <FontAwesomeIcon className='cart-icon' icon={faShoppingCart}></FontAwesomeIcon></button>
         </div>
     );
 };
