@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+.selected-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected-item img {
+    height: 25px;
+    width: 25px;
+}

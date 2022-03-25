@@ -1,13 +1,13 @@
 [
     {
         "id": 1,
-        "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "name": "Creative Calling",
         "price": 109.95,
         "image": "./images/image-1.jpg"
     },
     {
         "id": 2,
-        "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "name": "The Law of Action",
         "price": 109.95,
         "image": "./images/image-2.jpg"
     },

@@ -19,11 +19,12 @@
     gap: 10px;
 
 }
-.book-items{
-    background-color: aqua;
-
-}
 
 .book-cart{
-    background-color: salmon;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 500px;
+    position: sticky;
+    top: 0;
 }
