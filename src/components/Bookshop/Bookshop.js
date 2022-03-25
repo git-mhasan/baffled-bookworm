@@ -16,9 +16,16 @@ const Bookshop = () => {
 
     //Add to Cart button click handler.
     const handleAddToCart = id => {
+        let newCart = [...cart];
+        if (!cart) {
+            newCart.push(books.find(book => book.id === id));
 
+        } else if (!cart.find(book => book.id === id) && cart.length < 5) {
+            newCart.push(books.find(book => book.id === id));
+        }
+        setCart(newCart);
 
-
+        console.log(cart);
         // if (cart.length > 4) {
         //     window.alert("Sorry! You've already chosen 4 items");
 
@@ -42,10 +49,16 @@ const Bookshop = () => {
                     ></Books>
                 </div>
                 <div className='book-cart'>
-                    <SelectedItem
+
+
+                    {/* <SelectedItem
                         name={books[0].name}
                         image={books[0].image}
                     ></SelectedItem>
+                    <SelectedItem
+                        name={books[1].name}
+                        image={books[1].image}
+                    ></SelectedItem> */}
                 </div>
             </div>
         </div>
