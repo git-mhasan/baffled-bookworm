@@ -2,31 +2,31 @@
     {
         "id": 1,
         "name": "Creative Calling",
-        "price": 109.95,
+        "price": 106.20,
         "image": "./images/image-1.jpg"
     },
     {
         "id": 2,
         "name": "The Law of Action",
-        "price": 109.95,
+        "price": 213.58,
         "image": "./images/image-2.jpg"
     },
     {
         "id": 3,
-        "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-        "price": 109.95,
+        "name": "Lifestyle builder",
+        "price": 69.45,
         "image": "./images/image-3.jpg"
     },
     {
         "id": 4,
-        "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "name": "Tasting The Past",
         "price": 109.95,
         "image": "./images/image-4.jpg"
     },
     {
         "id": 5,
         "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-        "price": 109.95,
+        "price": 112.75,
         "image": "./images/image-1.jpg"
     },
     {

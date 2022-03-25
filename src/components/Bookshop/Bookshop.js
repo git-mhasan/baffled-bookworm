@@ -20,28 +20,19 @@ const Bookshop = () => {
         if (!cart) {
             newCart.push(books.find(book => book.id === id));
 
-        } else if (!cart.find(book => book.id === id) && cart.length < 5) {
+        } else if (!cart.find(book => book.id === id) && cart.length < 4) {
             newCart.push(books.find(book => book.id === id));
         }
         setCart(newCart);
-
-        console.log(cart);
-        // if (cart.length > 4) {
-        //     window.alert("Sorry! You've already chosen 4 items");
-
-        // }
-        // else {
-        //     let newCart = [];
-        //     const selectedItem = books.find(book => book.id === id);
-        //     newCart = [...cart, selectedItem]
-        //     setCart(newCart);
-        //     console.log(cart);
-        // }
     }
+
+
 
     return (
         <div>
-            <h1 className='header-title'>The Baffled Bookworm</h1>
+            <div className='header-title'>
+                <h1>The Baffled Bookworm</h1>
+            </div>
             <div className='book-shop'>
                 <div className='book-items'>
                     <Books books={books}
@@ -49,16 +40,17 @@ const Bookshop = () => {
                     ></Books>
                 </div>
                 <div className='book-cart'>
+                    <h4>You Choose:</h4>
+                    {
+                        cart.map(item => <SelectedItem
+                            name={item.name}
+                            image={item.image}
+                            key={item.id}
+                        ></SelectedItem>)
+                    }
+                    <button className='random-btn'>Chose a Random Book</button>
+                    <button className='clear-btn'>Clear All</button>
 
-
-                    {/* <SelectedItem
-                        name={books[0].name}
-                        image={books[0].image}
-                    ></SelectedItem>
-                    <SelectedItem
-                        name={books[1].name}
-                        image={books[1].image}
-                    ></SelectedItem> */}
                 </div>
             </div>
         </div>
