@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(250, 250, 210, 0.281);
+}
+
+.book-shop{
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px 0 ;
+    /* border: 1px solid gray; */
+    color: tomato;
+}
