@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "image": "./images/image-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "image": "./images/image-2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "image": "./images/image-3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "image": "./images/image-4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "image": "./images/image-1.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "image": "./images/image-1.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "image": "./images/image-1.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "image": "./images/image-1.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "image": "./images/image-1.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "image": "./images/image-1.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "image": "./images/image-1.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "image": "./images/image-1.jpg"
+    }
+]
