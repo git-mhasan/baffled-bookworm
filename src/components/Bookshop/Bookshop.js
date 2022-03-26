@@ -55,7 +55,7 @@ const Bookshop = () => {
 
                 </div>
                 <div className='book-cart'>
-                    <h4>You Choose:</h4>
+                    <h4>Choose 4 Books:</h4>
                     {
                         cart.map(item => <SelectedItem
                             name={item.name}
