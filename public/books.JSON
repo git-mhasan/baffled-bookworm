@@ -38,37 +38,37 @@
     {
         "id": 7,
         "name": "Mastering the Tighrope",
-        "price": 69.95,
+        "price": 65.95,
         "image": "./images/image-7.jpg"
     },
     {
         "id": 8,
         "name": "Your Epic Life",
-        "price": 109.95,
+        "price": 30.92,
         "image": "./images/image-8.jpg"
     },
     {
         "id": 9,
         "name": "Advice for Younger Self",
-        "price": 109.95,
+        "price": 49.58,
         "image": "./images/image-9.png"
     },
     {
         "id": 10,
         "name": "Understanding AB Plan",
-        "price": 109.95,
+        "price": 95.50,
         "image": "./images/image-10.jpg"
     },
     {
         "id": 11,
         "name": "When The Lion Roars",
-        "price": 109.95,
+        "price": 99.15,
         "image": "./images/image-11.jpg"
     },
     {
         "id": 12,
         "name": "Bits, Bytes and Barrels",
-        "price": 109.95,
+        "price": 60.98,
         "image": "./images/image-12.jpg"
     }
 ]

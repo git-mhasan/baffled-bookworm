@@ -32,7 +32,7 @@ const Bookshop = () => {
 
     const randomItemSelector = (maxVal) => {
         const randomIndex = Math.floor(Math.random() * maxVal);
-        window.confirm("Your Lucky Book is: \n" + + "\n" + cart[randomIndex].name);
+        window.confirm("Your Lucky Book is: \n" + cart[randomIndex].name);
 
     }
 
