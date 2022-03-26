@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Books from '../Books/Books';
+import Question from '../Question/Question';
 import SelectedItem from '../SelectedItem/SelectedItem';
 import './Bookshop.css';
 
@@ -67,6 +68,9 @@ const Bookshop = () => {
                     <button onClick={clearItems} className='clear-btn'>Clear All</button>
 
                 </div>
+            </div>
+            <div className='question-section'>
+                <Question></Question>
             </div>
         </div>
     );

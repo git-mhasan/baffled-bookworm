@@ -5,7 +5,7 @@
     background-color: rgba(250, 250, 210, 0.281);
 }
 
-.header-title{
+.header-title, .question-section{
     padding: 20px;
     color: black;
     width: 1000px;
@@ -40,12 +40,12 @@
        
 }
 @media screen and (max-width:900px){
-    .header-title{
+    .header-title, .question-section{
         width: 700px;
     }
 }
 @media only screen and (max-width:600px){
-    .header-title{   
+    .header-title, .question-section{   
         width: 300px;
     }
 
