@@ -47,7 +47,6 @@ const Bookshop = () => {
         const index = cart.indexOf(cart.find(book => book.id === id));
         cart.splice(index, 1)
         const newCart = [...cart];
-        console.log(newCart);
         setCart(newCart);
     }
 
