@@ -30,18 +30,26 @@ const Bookshop = () => {
         setCart(newCart);
     }
 
+    //Random Book selection function.
     const randomItemSelector = (maxVal) => {
         const randomIndex = Math.floor(Math.random() * maxVal);
         window.confirm("Your Lucky Book is: \n" + cart[randomIndex].name);
 
     }
 
-    //celar selected items function
+    //clear selected items function
     const clearItems = () => {
         setCart([]);
     }
 
-
+    //delete function for deleting single book.
+    const deleteSingleBook = id => {
+        const index = cart.indexOf(cart.find(book => book.id === id));
+        cart.splice(index, 1)
+        const newCart = [...cart];
+        console.log(newCart);
+        setCart(newCart);
+    }
 
     return (
         <div>
@@ -59,9 +67,11 @@ const Bookshop = () => {
                     <h4>Choose 4 Books:</h4>
                     {
                         cart.map(item => <SelectedItem
+                            id={item.id}
                             name={item.name}
                             image={item.image}
                             key={item.id}
+                            deleteSingleBook={deleteSingleBook}
                         ></SelectedItem>)
                     }
                     <button onClick={() => { randomItemSelector(cart.length) }} className='random-btn'>Chose a Random Book</button>

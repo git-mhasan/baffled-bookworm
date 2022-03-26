@@ -4,6 +4,7 @@ import './Card.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
+//property destructuring.
 const Card = ({ id, name, price, image, handleAddToCart }) => {
     return (
         <div className='card-container'>

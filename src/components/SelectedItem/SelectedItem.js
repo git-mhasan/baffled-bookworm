@@ -3,12 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './SelectedItem.css';
 
-const SelectedItem = ({ image, name }) => {
+//property destructuring.
+const SelectedItem = ({ id, image, name, deleteSingleBook }) => {
     return (
         <div className='selected-item'>
             <img src={image} alt="" />
             <h5>{name}</h5>
-            <FontAwesomeIcon icon={faTrashCan}></FontAwesomeIcon>
+            <FontAwesomeIcon className='delete-btn' onClick={() => { deleteSingleBook(id) }} icon={faTrashCan}></FontAwesomeIcon>
 
         </div>
     );

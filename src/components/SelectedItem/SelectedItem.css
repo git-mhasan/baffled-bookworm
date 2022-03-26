@@ -16,3 +16,7 @@
     width: 35px;
     border-radius: 50%;
 }
+
+.delete-btn{
+    cursor: pointer;
+}
